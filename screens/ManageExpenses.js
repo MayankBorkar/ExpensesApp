@@ -34,13 +34,13 @@ function ManageExpenses({route, navigation}) {
                 editedExpenseId,
                 description: 'Test',
                 amount: 29.99,
-                date: new Date('2022-05-20'),
+                date: new Date('2023-03-9'),
             });
         } else {
             expenseCtx.addExpense({
                 description: 'Test!!!!!',
                 amount: 19.99,
-                date: new Date('2022-05-19'),
+                date: new Date('2023-03-8'),
             });
         }
         navigation.goBack();
